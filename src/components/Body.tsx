@@ -3,7 +3,7 @@ import HeroSection from "./HeroSection";
 import AboutSection from "./AboutSection";
 import SpeakersSection from "./SpeakersSection";
 import ScheduleSection from "./ScheduleSection";
-import TeamSection from "./TeamSection";
+
 
 const Body: React.FC = () => {
   return (
@@ -12,7 +12,6 @@ const Body: React.FC = () => {
       <AboutSection />
       <SpeakersSection />
       <ScheduleSection />
-      <TeamSection />
     </>
   );
 };
